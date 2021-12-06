@@ -1,0 +1,155 @@
+
+/*POLICES*/
+@font-face {
+    font-family: 'theblacklist';
+    src : url('../fonts/theblacklist.ttf') format('truetype');
+}
+
+
+*, ::before, ::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#logo{
+    width: 30px;
+    height: 30px;
+}
+
+.en-tete{
+   
+    background: linear-gradient(#e66464b6,yellow);
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 30px;
+
+}
+h1{
+    margin-top: 1rem;
+    text-align: center;
+    color: white;
+    /* pour le font j'ai essayer plusieurs fois mais ça marche pas et je sais pas pourquoi ?! */
+    font-family: 'theblacklist', sans-serif;
+}
+h2{
+    margin-top: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 19px;
+}
+.menu{
+    display: flex;
+    justify-content: center ;
+    align-items:center;
+
+} 
+.menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 15px;
+    width: 150px;
+}
+.menu ul a{
+    color: #000;
+}
+
+
+.line{
+ background: palevioletred;
+ height: 2px;
+}
+h3{
+    text-align: center;
+    margin-top: 30px ;
+    margin-bottom: 20px;
+}
+p{
+    text-align: center;
+    padding: 30px;
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem;
+    }
+/* Section Van et Fourgon */
+.vanfourgon{
+    margin-bottom: 6rem;
+}
+#galerie{
+    display: grid;
+    grid-template-columns:repeat(3,3fr);
+    justify-content: center;
+}
+
+.image img{
+    width: 300px;
+    height: 200px;
+    max-height: 230px;  
+    margin-left: 80px;
+    background-size: cover;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    margin-top: 40px;
+}
+
+figure{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+figcaption{
+    text-align: center;
+    background-color:#ee6779dc;
+    color: #fff;
+    padding: 0.4rem;
+    margin-left: 80px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+/* Section Contact */
+.foot h2{
+    color: #000000;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+.contactP{
+    text-align: center;
+    padding: 1rem;
+    border: 2px solid #ff3852;
+    border-radius: 10px;
+    width: 95%;
+}
+
+.foot{
+    margin: 0px;
+}
+#Copy{
+    display: flex;
+    background-color: #ee6779dc;
+    width: 100%;
+    margin-top: 60px;
+    height:55px;
+    align-content: flex-end;
+    justify-content: center;
+    
+}
+#Copy p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
