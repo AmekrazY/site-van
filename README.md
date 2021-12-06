@@ -1,1 +1,2 @@
-exercice pour faire un site de van en html et css.
+---
+Projet d'un site de van en html et css.
